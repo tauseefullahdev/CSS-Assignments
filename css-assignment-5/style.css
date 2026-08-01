@@ -1,0 +1,46 @@
+body{
+    background:#b14ad7;
+    padding:30px;
+}
+
+.table-container{
+    border-radius:20px;
+    overflow:hidden;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    background:white;
+}
+
+thead th{
+    background:#2f2d44;
+    color:white;
+    text-align:left;
+    padding:20px;
+}
+
+tbody td{
+    padding:20px;
+}
+
+tbody tr:nth-child(even){
+    background:#f5f5f5;
+}
+
+tbody tr:hover{
+    background:#f5f5f5;
+}
+ /* rule to remember:
+✅ border-collapse: collapse; → border-radius on <table> usually doesn't work.
+✅ Put the table inside a <div> with border-radius + overflow: hidden.
+✅ This is the technique most professional developers use. */
+/* 
+Think of it like a photo frame.
+Imagine you have a rectangular photo frame with rounded corners.
+The frame is your <div>.
+The photo is your <table>.
+If the photo is bigger than the frame, parts of it stick outside.
+Without overflow: hidden: 
+ */

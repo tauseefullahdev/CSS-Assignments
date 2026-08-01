@@ -1,0 +1,58 @@
+*{
+  box-sizing: border-box; /* Includes padding/borders in width calculation */
+  margin: 0;              /* Removes default browser margins */
+  padding: 0;             /* Removes default browser paddings */
+}
+body{
+    background-color: #f3f3f3;
+}
+h1{
+    margin-bottom: 45px;
+}
+.container{
+    margin: auto;
+    padding-top: 60px;
+    width: 50%;
+
+}
+.form-container{
+    width: 100%;
+    text-align: center;
+}
+input,textarea{
+    width: 85%;
+    padding:25px;
+    margin-bottom:20px;
+    color: rgb(68, 65, 65);
+    background-color: white;
+    border-radius: 30px;
+    border: none;
+}
+input:focus,textarea:focus{
+ outline: none;
+ width: 90%;
+}
+textarea {
+      resize: vertical; /* Locks width, allows height adjustments */
+      min-height: 180px;
+      max-height: 500px;
+    }
+.button{
+    background-color: #827ffe;
+    color: white;
+     width: 22%;
+    padding:18px 20px;
+    margin-bottom:20px;
+    border-radius: 35px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.4s;
+
+}
+.button:hover{
+ outline: none;
+ width: 25%;
+ /* padding: 18px 100px; */
+ /* margin-bottom:20px; */
+ background-color: rgb(37, 35, 35);
+}
