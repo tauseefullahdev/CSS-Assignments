@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial Regular;
+}
+.main-heading{
+    color: white;
+    background-color: #806BDC;
+    text-align: center;
+    padding: 0.75%;
+    /* overflow: hidden; */
+}
+.nav-link{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.nav-link img{
+    width: 81px;
+    height: auto;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.90%;
+}
+.item a{
+    text-decoration: none;
+    color: black;
+}
+.item a:hover{
+    color: #807DE5;
+}
+.shopping-container{
+    background-color: #D3D3D3;
+}
+.container{
+    width: 90vw;
+    margin: auto;
+    padding-bottom: 0.5%;
+}
+.container img{
+    width: 100%;
+    height: 62vh;
+    margin: 2% 0%;
+}
+
+.container h2,table{
+    width: 100%;
+    height: auto;
+    margin: 1.5% 0%;
+}
+.container h2{
+    text-align: center;
+}
+table th,td{
+    padding: 1%;
+}
+table thead{
+    background-color: #806BDC;
+}
+table,th,td{
+    border: 1px solid #808080;
+}
+table{
+    border-collapse: collapse;
+}
+.container2{
+    width: 93%;
+     margin-left:1.4%;
+     margin-top: 1.4%;
+     margin-bottom: 1.4%;
+    
+} 
+ul li{
+    margin-left: 1.4%;
+}
+.fashion-store{
+    color:#878787;
+    
+}
+.footer{
+    background-color: #000000;
+    color: white;
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container2 p,ul{
+    font-size: 11px;
+}
